@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <section>
+        <h2>I - Blocs positioning</h2>
+        <div class="container-fluid text-center principal">
+            <div class="row">
+                <div class="col">12 colonnes
+                </div>
+            </div>
+            <div class="row d-flex justify-content-evenly">
+
+                <div class="col-2 contenu contenu">Coucou</div>
+                <div class="col-3 contenu">ça</div>
+                <div class="col-2 contenu">va ?</div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <h2>II - Imbricated elements</h2>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-md-3 contenu">
+                    Nouvel
+                </div>
+                <div class="col-md-9 contenu">
+                    Exercice
+                </div>
+            </div>
+
+            <div class="row justify-content-end">
+                <div class="col-md-2 contenu">ces</div>
+                <div class="col-md-5 contenu">blocs sont tous</div>
+                <div class="col-md-2 contenu">dans</div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-md-3 contenu">la même</div>
+                <div class="col-md-3 contenu">div où est</div>
+                <div class="col-md-3 contenu">inscrit "Exercice".</div>
+            </div>
+
+            <div class="row justify-content-end">
+                <div class="col-md-4 contenu">comment</div>
+                <div class="col-md-1 contenu">est</div>
+                <div class="col-md-4 contenu">ce possible ?</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <h2>III - change elements order</h2>
+
+        <div class="container-fluid principal">
+            <div class="row text-center">
+                <div class="col">12 colonnes</div>
+            </div>
+            <div class="row d-flex justify-content-evenly">
+                <div class="col-md-2 order-1 contenu">Bloc 1 de 2</div>
+
+                <div class="col-md-2 order-3 contenu">Bloc 2 de 2</div>
+                <div class="col-md-2 order-2 contenu">Bloc 3 de 2</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>IV - Practice makes good</h2>
+
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-6">
+                    <p>6 colonnes</p>
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-4 contenu">4 colonnes</div>
+                        <div class="col-4 contenu">4 colonnes</div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p>6 colonnes</p>
+                    <div class="row">
+                        <div class="col-4 contenu">4 colonnes</div>
+                        <div class="col-8 contenu">8 colonnes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>V - responsive layout</h2>
+
+        <div class=".container-sm text-center">
+            <div class="row d-flex justify-content-between">
+                <div class="col-md-2 col-2 contenu">Logo</div>
+                <div class="col-md-9 col-9 contenu">Titre</div>
+            </div>
+            <div class="row my-4">
+                <div class="col-sm-12 contenu">Hero</div>
+            </div>
+            <div class="row justify-content-between g-4">
+                <div class="col-12 col-md-3 contenu">Zone 1</div>
+                <div class="col-12 col-md-3 contenu">Zone 2</div>
+                <div class="col-12 col-md-3 contenu">Zone 3</div>
+
+            </div>
+            <div class="row my-4">
+                <div class="col-4 col-md-6 contenu">Zone 5</div>
+                <div class="col-8 col-md-6 contenu">Zone 6</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 contenu">Footer</div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
